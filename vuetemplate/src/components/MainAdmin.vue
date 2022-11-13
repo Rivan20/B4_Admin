@@ -1,17 +1,4 @@
-<style>
-.stat-cards-item-white {
-  padding: 24px 19px;
-  margin-top: -15px;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 15px 50px rgba(160, 163, 189, 0.1);
-  box-shadow: 0 15px 50px rgba(160, 163, 189, 0.1);
-  border-radius: 10px;
-  height: 100%;
-}
-.stat-cards-info__path {
-  color: #757575;;
-}
-</style>
+
 <template>
   <div>
     <main class="main users chart-page" id="skip-target">
@@ -21,7 +8,8 @@
               <div class="stat-cards-info">
                 <p class="stat-cards-info__path">
                   <span class="stat-cards-info__profit success"> </span>
-                  Home /&nbsp; <a href="#"> <b> Dashboard</b></a>
+                  Home /&nbsp; 
+                  <a href="#"> <b> Dashboard</b></a>
                 </p>
               </div>
             </article>
@@ -52,7 +40,7 @@
         </div> -->
         
         <div class="row stat-cards">
-          <div class="col-md-6 col-xl-3">
+          <div class="col-4">
             <article class="stat-cards-item">
               <div class="stat-cards-info">
                 <p class="stat-cards-info__num">New Article Report</p>
@@ -64,7 +52,7 @@
               </div>
             </article>
           </div>
-          <div class="col-md-6 col-xl-3">
+          <div class="col-4">
             <article class="stat-cards-item1">
               <div class="stat-cards-info">
                 <p class="stat-cards-info__num">New Kontributor Report</p>
@@ -76,7 +64,7 @@
               </div>
             </article>
           </div>
-          <div class="col-md-6 col-xl-3">
+          <div class="col-4">
             <article class="stat-cards-item2">
               <div class="stat-cards-info">
                 <p class="stat-cards-info__num">New Kontributor Registration</p>
@@ -98,4 +86,17 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.stat-cards-item-white {
+  padding: 24px 19px;
+  margin-top: -15px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 15px 50px rgba(160, 163, 189, 0.1);
+  box-shadow: 0 15px 50px rgba(160, 163, 189, 0.1);
+  border-radius: 10px;
+  height: 100%;
+}
+.stat-cards-info__path {
+  color: #757575;;
+}
+</style>

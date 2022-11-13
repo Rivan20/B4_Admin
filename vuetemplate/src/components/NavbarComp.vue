@@ -9,10 +9,11 @@
       <h2>Dashboard</h2>
     </div>
     <div class="main-nav-end">
-      <!-- <button class="sidebar-toggle transparent-btn" title="Menu" type="button">
+      <button class="sidebar-toggle transparent-btn" title="Menu" type="button">
         <span class="sr-only">Toggle menu</span>
         <span class="icon menu-toggle--gray" aria-hidden="true"></span>
-      </button> -->
+      </button>
+      
       <!-- <div class="lang-switcher-wrapper">
         <button class="lang-switcher transparent-btn" type="button">
           EN

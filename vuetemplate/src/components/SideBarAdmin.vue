@@ -3,6 +3,9 @@
         <aside class="sidebar">
     <div class="sidebar-start">
         <div class="sidebar-head">
+            <!-- <a href="/" class="logo-wrapper1" title="Home">
+                <img src="assets/img/avatar/logo.png" class="imglogo" aria-hidden="true"/>
+            </a> -->
             <a href="/" class="logo-wrapper" title="Home">
                 <!-- <span class="sr-only">Home</span>
                 <span class="icon logo" aria-hidden="true"></span>
@@ -10,15 +13,18 @@
                     <span class="logo-title">Jassa</span>
                     <span class="logo-subtitle">Dashboard</span>
                 </div> -->
-                <picture><source srcset="assets/img/avatar/logo.png" type="image/webp"><img src="assets/img/avatar/logo.png" alt="User name"></picture>
-                <!-- <div class="Logo-text"> -->
-                <!-- </div> -->
+                <!-- <picture><source srcset="assets/img/avatar/logo.png" type="image/webp"><img src="assets/img/avatar/logo.png" alt="User name"></picture> -->
+                <img src="assets/img/avatar/logo.png" class="imglogo" aria-hidden="true"/>
             </a>
+            <div class="Logo-text">
+                <span class="logo-title" aria-hidden="true">GEOWISATA</span>
+            </div> 
             <button class="sidebar-toggle transparent-btn" title="Menu" type="button">
                 <span class="sr-only">Toggle menu</span>
                 <span class="icon menu-toggle" aria-hidden="true"></span>
             </button>
         </div>
+        
         <div class="sidebar-body">
             <ul class="sidebar-body-menu">
                 <li>
@@ -63,14 +69,6 @@
                             <span class="icon arrow-down" aria-hidden="true"></span>
                         </span>
                     </a>
-                    <ul class="cat-sub-menu">
-                        <li>
-                            <a href="#">Media-01</a>
-                        </li>
-                        <li>
-                            <a href="#">Media-02</a>
-                        </li>
-                    </ul>
                 </li>
             </ul>
         </div>
@@ -86,7 +84,7 @@
             </div>
         </a>
     </div> -->
-</aside>
+        </aside>
     </div>
 </template>
 

@@ -14,7 +14,7 @@
     <!-- ! Main -->
     <MainAdminVue/>
     <!-- ! Footer -->
-    <FooterAdmin/>
+    <!-- <FooterAdmin/> -->
   </div>
 </div>
 </template>
@@ -22,15 +22,15 @@
 <script>
 import NavbarCompVue from './components/NavbarComp.vue';
 import SideBarAdmin from './components/SideBarAdmin.vue';
-import FooterAdmin from './components/FooterAdmin.vue';
+// import FooterAdmin from './components/FooterAdmin.vue';
 import MainAdminVue from './components/MainAdmin.vue';
 export default {
   name: 'App',
   components: {
     NavbarCompVue,
     MainAdminVue,
-    SideBarAdmin,
-    FooterAdmin
+    SideBarAdmin
+    // FooterAdmin
   }
 }
 </script>

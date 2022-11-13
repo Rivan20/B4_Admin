@@ -6,7 +6,7 @@ html {
 body {
   margin: 0;
 }
---#{$prefix}breadcrumb-padding-x: #{$breadcrumb-padding-x};
+/* --#{$prefix}breadcrumb-padding-x: #{$breadcrumb-padding-x};
 --#{$prefix}breadcrumb-padding-y: #{$breadcrumb-padding-y};
 --#{$prefix}breadcrumb-margin-bottom: #{$breadcrumb-margin-bottom};
 @include rfs($breadcrumb-font-size, --#{$prefix}breadcrumb-font-size);
@@ -14,7 +14,7 @@ body {
 --#{$prefix}breadcrumb-border-radius: #{$breadcrumb-border-radius};
 --#{$prefix}breadcrumb-divider-color: #{$breadcrumb-divider-color};
 --#{$prefix}breadcrumb-item-padding-x: #{$breadcrumb-item-padding-x};
---#{$prefix}breadcrumb-item-active-color: #{$breadcrumb-active-color};
+--#{$prefix}breadcrumb-item-active-color: #{$breadcrumb-active-color}; */
 
 details,
 main {
@@ -67,6 +67,7 @@ sup {
 }
 img {
   border-style: none;
+  
 }
 button,
 input,
@@ -725,9 +726,13 @@ body {
   height: 49px;
 }
 .menu-toggle {
+  margin-top: 235%;
+  right: 5%;
+  position: absolute;
   background-image: url(../img/svg/Bulk/Menu-toggle-white.svg);
   width: 24px;
   height: 24px;
+
 }
 .home,
 .menu-toggle--gray {
@@ -1036,15 +1041,20 @@ button.disabled:focus {
 }
 .sidebar-toggle {
   opacity: 0.6;
-  -webkit-transition: 0.3s all;
+  -webkit-transition: 0.3s all; 
+  
   -o-transition: 0.3s all;
   transition: 0.3s all;
+  
 }
 .sidebar-toggle:hover {
   opacity: 1;
 }
 .category__btn.rotated .icon,
 .sidebar-toggle.rotated {
+  margin-top: 2040%;
+  margin-right: 28%;
+  position: absolute;
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -1477,12 +1487,14 @@ label {
   -ms-flex-pack: justify;
   justify-content: space-between;
   background-color: #36acaf !important;
-  width: 253px;
-  padding: 20px 15px 37px 20px;
+  width: 235px;
+  padding: 0px 10px 37px 20px;
   -webkit-transition: 0.5s all;
   -o-transition: 0.5s all;
   transition: 0.5s all;
   min-height: 100vh;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
 }
 .sidebar a:focus {
   outline: 0;
@@ -1499,7 +1511,8 @@ label {
   align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding-bottom: 20px;
+  margin-top: 4%;
+  padding-bottom: 0px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .sidebar-body {
@@ -1615,14 +1628,20 @@ label {
   -webkit-transition: 0s all;
   -moz-transition: 0s all;
   -ms-transition: 0s all;
-  -o-transition: 0s all; */
+  -o-transition: 0s all; 
 }
+/* .Logo-title{
+  color : #ffffff;
+} */
 .logo-subtitle,
 .logo-title {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.4;
   letter-spacing: 0.86px;
+  position: relative;
+  left: 70px;
+  bottom: 33px;
   color: #fff;
 }
 .logo-subtitle {
@@ -2648,6 +2667,10 @@ label {
 }
 .darkmode .menu-toggle--gray {
   background-image: url(../img/svg/Bulk/Menu-toggle-white.svg);
+}
+.imglogo{
+  width: 55%;
+  height: 20%;
 }
 @media (min-width: 576px) {
   .container {
