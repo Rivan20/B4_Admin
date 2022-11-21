@@ -32,6 +32,7 @@
                 </li>
                 <li>
                     <a class="show-cat-btn" href="##">
+                        
                         <span class="icon document" aria-hidden="true"></span>Pengguna
                         <span class="category__btn transparent-btn" title="Open list">
                             <span class="sr-only">Open list</span>
@@ -40,10 +41,13 @@
                     </a>
                     <ul class="cat-sub-menu">
                         <li>
-                            <a href="#">All Posts</a>
+                            <a href="#">List Pengguna</a>
                         </li>
                         <li>
-                            <a href="#">Add new post</a>
+                            <a href="#">List Editor</a>
+                        </li>
+                        <li>
+                            <a href="#">Buat Akun Editor</a>
                         </li>
                     </ul>
                 </li>
@@ -57,7 +61,10 @@
                     </a>
                     <ul class="cat-sub-menu">
                         <li>
-                            <a href="#">All categories</a>
+                            <a href="#">List Kategori</a>
+                        </li>
+                        <li>
+                            <a href="#">Buat Kategori</a>
                         </li>
                     </ul>
                 </li>
@@ -69,6 +76,14 @@
                             <span class="icon arrow-down" aria-hidden="true"></span>
                         </span>
                     </a>
+                    <ul class="cat-sub-menu">
+                        <li>
+                            <a href="#">List Persyaratan</a>
+                        </li>
+                        <li>
+                            <a href="#">Buat Persyaratan</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>

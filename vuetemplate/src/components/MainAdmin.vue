@@ -47,7 +47,9 @@
                 <p class="stat-cards-info__title">69</p>
                 <p class="stat-cards-info__progress">
                   <span class="stat-cards-info__profit success"> </span>
-                  More info
+                  <a href="">
+                    More info
+                  </a>
                 </p>
               </div>
             </article>
@@ -59,7 +61,9 @@
                 <p class="stat-cards-info__title">69</p>
                 <p class="stat-cards-info__progress">
                   <span class="stat-cards-info__profit success"> </span>
-                  More info
+                  <a href="">
+                    More info
+                  </a>
                 </p>
               </div>
             </article>
@@ -71,7 +75,9 @@
                 <p class="stat-cards-info__title">69</p>
                 <p class="stat-cards-info__progress">
                   <span class="stat-cards-info__profit success"> </span>
+                  <a href="">
                   More info
+                  </a>
                 </p>
               </div>
             </article>
