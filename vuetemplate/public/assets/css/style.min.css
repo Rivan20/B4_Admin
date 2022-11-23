@@ -6,6 +6,26 @@ html {
 body {
   margin: 0;
 }
+
+@media only screen and (max-width: 300px) {
+  .stat-cards-info__num {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 1.22;
+    color: rgb(38, 10, 10);
+    margin-bottom: 4px;
+  }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1536px){
+  .stat-cards-info__num {
+    font-weight: 600;
+    font-size: px;
+    line-height: 1.22;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+}
 /* --#{$prefix}breadcrumb-padding-x: #{$breadcrumb-padding-x};
 --#{$prefix}breadcrumb-padding-y: #{$breadcrumb-padding-y};
 --#{$prefix}breadcrumb-margin-bottom: #{$breadcrumb-margin-bottom};
@@ -1475,7 +1495,7 @@ label {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  height: 100%;
+  height: 120%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2059,7 +2079,7 @@ label {
 }
 .stat-cards-info__num {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.22;
   color: #fff;
   margin-bottom: 4px;
@@ -2818,7 +2838,7 @@ label {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
-    color: #blue;
+    color: #0061f7;
   }
   .col-md-7,
   .col-md-8 {
